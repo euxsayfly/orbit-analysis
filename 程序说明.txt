@@ -1,0 +1,20 @@
+OrbAnalysis:主程序
+GetCurrentTime：时间计算函数
+atan3：三角转化函数
+blast：画图子函数
+mat2txt:mat转txt函数
+
+工作区参数说明
+orbital_period 轨道周期
+a_km 轨道半长轴 km
+b_km 轨道半短轴 km
+e 偏心率
+inc_deg 轨道倾角 °
+RAAN0_deg 初始升交点赤径 °
+w0_deg 初始近地点角距 °
+M0_deg 初始 平近点角
+Xeci Yeci Zeci  最终eci下坐标
+Xcoord Ycoord Zcoord eci下坐标向量
+
+pause 注释后显示静态图，不注释显示动图
+扰动量 地球扁率摄动 低轨约1.2%  中高轨约0.005%
